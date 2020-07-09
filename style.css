@@ -1,5 +1,5 @@
 .container{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   
 }
 .background{
@@ -16,4 +16,41 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+
+
+.col-md-6 h5{
+text-align: right;
+color: orange;
+font-size: 25px;
+font-weight: lighter;
+}
+.products img{
+    width: 300px;
+    
+}
+.card{
+    
+    border: none!important;
+    box-shadow:5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+
+.laptop{
+    margin-top: 50px;
+}
+.categories{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration:underline orange;
+}
+.cat{
+    padding: 10px 10px;
+}
+.cat img:hover {
+    box-shadow: 5px 10px 10px rgba(0, 140, 186, 0.5);
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
 }
